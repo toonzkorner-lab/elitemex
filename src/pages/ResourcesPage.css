@@ -1,0 +1,145 @@
+.resources-page {
+  padding: 8rem 2rem 4rem;
+  min-height: 100vh;
+  background: #0A0A0B;
+  color: #F5F5F5;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.resources-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.resources-header h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.resources-header p {
+  color: #A0A0A5;
+  font-size: 1.125rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.resources-loading {
+  text-align: center;
+  color: #A0A0A5;
+  padding: 4rem;
+  font-size: 1.5rem;
+}
+
+.resources-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.category-section {
+  background: #141416;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+}
+
+.category-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.category-header h2 {
+  font-size: 1.75rem;
+  color: #fff;
+  margin: 0;
+  font-weight: 600;
+}
+
+.documents-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
+
+.document-card {
+  display: flex;
+  align-items: center;
+  background: #1C1C1E;
+  padding: 1.25rem;
+  border-radius: 8px;
+  text-decoration: none;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: all 0.2s ease;
+}
+
+.document-card:hover {
+  transform: translateY(-2px);
+  border-color: #0A84FF;
+  background: #232325;
+}
+
+.document-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(10, 132, 255, 0.1);
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  margin-right: 1rem;
+  flex-shrink: 0;
+}
+
+.document-info {
+  flex-grow: 1;
+}
+
+.document-info h4 {
+  margin: 0 0 0.25rem 0;
+  color: #fff;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+.document-meta {
+  font-size: 0.8rem;
+  color: #A0A0A5;
+}
+
+.document-action {
+  color: #A0A0A5;
+  transition: color 0.2s;
+  padding-left: 1rem;
+}
+
+.document-card:hover .document-action {
+  color: #0A84FF;
+}
+
+@media (max-width: 768px) {
+  .resources-page { padding: 4rem 1rem 2rem; }
+  .resources-header { margin-bottom: 2rem; }
+  .resources-header h1 {
+    font-size: 1.75rem;
+  }
+  .resources-header p { font-size: 1rem; }
+  
+  .category-section {
+    padding: 1.25rem;
+  }
+  
+  .documents-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .document-card { padding: 1rem; }
+  .document-info h4 { font-size: 0.875rem; }
+}

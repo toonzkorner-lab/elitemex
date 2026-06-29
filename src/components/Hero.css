@@ -1,0 +1,21 @@
+.hero { position: relative; min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 6rem 2rem 2rem; background: radial-gradient(circle at center, #141416 0%, #0A0A0B 100%); overflow: hidden; }
+.hero::before { content: ''; position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: radial-gradient(circle, rgba(10, 132, 255, 0.05) 0%, transparent 50%); animation: rotate 30s linear infinite; pointer-events: none; will-change: transform; }
+@keyframes rotate { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+.hero-overlay { position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(10,10,11,0.3) 0%, #0A0A0B 100%); z-index: 1; }
+.hero-content { position: relative; z-index: 2; text-align: center; max-width: 800px; }
+.hero-title { font-size: clamp(3rem, 5vw + 1rem, 5rem); font-weight: 800; letter-spacing: -1.5px; margin-bottom: 1.5rem; color: #fff; }
+.text-gradient { background: linear-gradient(135deg, #0A84FF, #00D084); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+.hero-subtitle { font-size: clamp(1.125rem, 2vw, 1.25rem); color: #A0A0A5; margin-bottom: 2.5rem; max-width: 600px; margin-inline: auto; }
+.hero-actions { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+.hero-scroll-indicator { position: absolute; bottom: 2rem; left: 50%; transform: translateX(-50%); z-index: 2; }
+.mouse { width: 26px; height: 40px; border: 2px solid #A0A0A5; border-radius: 13px; display: block; position: relative; }
+.wheel { width: 4px; height: 8px; background: #fff; border-radius: 2px; position: absolute; top: 6px; left: 50%; transform: translateX(-50%); animation: scroll 1.5s infinite; will-change: top, opacity; }
+@keyframes scroll { 0% { top: 6px; opacity: 1; } 100% { top: 20px; opacity: 0; } }
+.animate-up { opacity: 0; transform: translateY(30px); animation: fadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards; will-change: transform, opacity; }
+.delay-1 { animation-delay: 0.2s; } .delay-2 { animation-delay: 0.4s; }
+@keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
+
+@media (max-width: 768px) {
+  .hero { min-height: 80vh; padding: 4rem 1.5rem; }
+  .hero-actions { flex-direction: column; align-items: center; }
+}

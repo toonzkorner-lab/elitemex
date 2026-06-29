@@ -1,0 +1,94 @@
+.gallery-page { padding: 6rem 2rem 4rem; min-height: 100vh; background: #0A0A0B; color: #F5F5F5; max-width: 1400px; margin: 0 auto; }
+.gallery-header { text-align: center; margin-bottom: 4rem; }
+.gallery-header h1 { font-size: clamp(2rem, 4vw, 3rem); font-weight: 800; color: #fff; margin-bottom: 1rem; }
+.gallery-header p { color: #A0A0A5; font-size: 1.125rem; max-width: 600px; margin: 0 auto; }
+
+.gallery-masonry {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-auto-rows: 250px;
+  gap: 1.5rem;
+}
+
+.gallery-item {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #141416;
+  border: 1px solid rgba(255,255,255,0.05);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  cursor: zoom-in;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.05);
+}
+
+.gallery-loading { text-align: center; color: #A0A0A5; padding: 4rem; font-size: 1.5rem; }
+
+.pagination-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 4rem;
+}
+
+.page-btn {
+  background: #0A84FF;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.page-btn:hover:not(:disabled) {
+  background: #0066CC;
+  transform: translateY(-2px);
+}
+
+.page-btn:disabled {
+  background: #2C2C2E;
+  color: #666;
+  cursor: not-allowed;
+}
+
+.page-info {
+  color: #F5F5F5;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .gallery-page { padding: 4rem 1rem 2rem; }
+  .gallery-header { margin-bottom: 2rem; }
+  .gallery-header p { font-size: 1rem; }
+  .gallery-masonry {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 180px;
+    gap: 0.75rem;
+  }
+  .gallery-item { border-radius: 8px; }
+  .pagination-controls { gap: 0.75rem; margin-top: 2rem; flex-wrap: wrap; }
+  .page-btn { padding: 0.625rem 1rem; font-size: 0.875rem; }
+  .page-info { font-size: 0.875rem; }
+}
+
+@media (max-width: 480px) {
+  .gallery-masonry {
+    grid-template-columns: 1fr;
+    grid-auto-rows: 220px;
+  }
+}

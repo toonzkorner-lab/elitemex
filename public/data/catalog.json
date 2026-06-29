@@ -1,0 +1,632 @@
+[
+  {
+    "url": "https://www.elitecrete.com",
+    "title": "Elite Mexico - Recubrimientos protectores de pisos resinosos y epoxi",
+    "file": "index.json",
+    "images_count": 56,
+    "primary_image": "37-Driveways.png"
+  },
+  {
+    "url": "https://www.elitecrete.com/about-elite-crete-systems/",
+    "title": "Acerca de Elite Mexico - Elite Mexico",
+    "file": "about-elite-crete-systems.json",
+    "images_count": 5,
+    "primary_image": "about-ecs-3-300x300.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/accelerated-schedule/",
+    "title": "Calendario acelerado - Elite Mexico",
+    "file": "accelerated-schedule.json",
+    "images_count": 5,
+    "primary_image": "AcceleratedSchedule-Jillys-Candy-Factory-in-Ocean-City-NJ-300x300.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/ada-flat-inclined-surfaces/",
+    "title": "Pisos epoxi para superficies planas/inclinadas ADA - Elite Mexico",
+    "file": "ada-flat-inclined-surfaces.json",
+    "images_count": 5,
+    "primary_image": "ADAFlat-Mud-Hole-Custom-Tackle-Blue-Reflector.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/aircraft-hangars/",
+    "title": "Sistema de piso epoxi para hangares de aviones - Elite Mexico",
+    "file": "aircraft-hangars.json",
+    "images_count": 5,
+    "primary_image": "12-blueplane.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/animal-wellness/",
+    "title": "Recubrimientos para pisos industriales para el bienestar animal - Elite Mexico",
+    "file": "animal-wellness.json",
+    "images_count": 5,
+    "primary_image": "241691515_10160213688347214_621195125552178372_n.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/architects-specifiers/",
+    "title": "Arquitectos y especificadores - Elite Mexico",
+    "file": "architects-specifiers.json",
+    "images_count": 5,
+    "primary_image": "ArchitectsAndSpecifiers-NASA.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/asphalt-repair-coatings/",
+    "title": "Recubrimientos de reparación de asfalto - Elite Mexico",
+    "file": "asphalt-repair-coatings.json",
+    "images_count": 5,
+    "primary_image": "675b.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/asphalt-seal-coating-and-repair/",
+    "title": "Recubrimiento y reparación de sellos de asfalto - Elite Mexico",
+    "file": "asphalt-seal-coating-and-repair.json",
+    "images_count": 5,
+    "primary_image": "seal-coating-3-768x768.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/auto-service-areas/",
+    "title": "Recubrimientos para pisos industriales para áreas de servicio automotriz",
+    "file": "auto-service-areas.json",
+    "images_count": 5,
+    "primary_image": "13-Auto-Stout-1.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/automotive/",
+    "title": "Recubrimientos para pisos industriales para talleres automotrices y concesionarios de automóviles - Elite Mexico",
+    "file": "automotive.json",
+    "images_count": 5,
+    "primary_image": "241695982_10160214107617214_9189733491341107235_n.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/aviation-and-aerospace/",
+    "title": "Pisos epoxi para instalaciones aeroespaciales y de aviación - Elite Mexico",
+    "file": "aviation-and-aerospace.json",
+    "images_count": 5,
+    "primary_image": "16-Industrial-hangar-flake-stout-combo-1.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/barndominiums/",
+    "title": "Barndominiums - Elite Mexico",
+    "file": "barndominiums.json",
+    "images_count": 5,
+    "primary_image": "barndominium1-768x768.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/breweries-wineries-and-distilleries/",
+    "title": "Recubrimientos para pisos industriales para cervecerías, bodegas y destilerías - Elite Mexico",
+    "file": "breweries-wineries-and-distilleries.json",
+    "images_count": 5,
+    "primary_image": "18-WeBe-Brewing-Company-in-Geneva-New-York-Flake-by-Shuttleworth-Asphalt-Sealing-4.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/cannabis/",
+    "title": "Pisos epoxi para tiendas e instalaciones de cannabis - Elite Mexico",
+    "file": "cannabis.json",
+    "images_count": 5,
+    "primary_image": "25-Collective-Elevation-alternative-and-holistic-health-store-reflector-by-Montana-Custom-Floors-1.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/careers/",
+    "title": "Carreras - Elite Mexico",
+    "file": "careers.json",
+    "images_count": 5,
+    "primary_image": "careers-3-768x768.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/chemical-containment/",
+    "title": "Sistemas de pisos de contención de químicos - Elite Mexico",
+    "file": "chemical-containment.json",
+    "images_count": 5,
+    "primary_image": "ChemicalContainment-Industrial-chemical-containment.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/chemical-resistant-surfaces/",
+    "title": "Resistente a productos químicos - Elite Mexico",
+    "file": "chemical-resistant-surfaces.json",
+    "images_count": 5,
+    "primary_image": "ChemicalResistant-Flake-in-auto-service-area-by-creative-Edge-Design-Group-Inc.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/chemical-spill-containment/",
+    "title": "Contención de derrames químicos - Elite Mexico",
+    "file": "chemical-spill-containment.json",
+    "images_count": 5,
+    "primary_image": "chemstorage4.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/classrooms-cafeterias-hallways/",
+    "title": "Pisos epoxi para aulas, cafeterías y pasillos - Elite Mexico",
+    "file": "classrooms-cafeterias-hallways.json",
+    "images_count": 5,
+    "primary_image": "GENEVA1.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/cold-room/",
+    "title": "Pisos Epoxi para Cuartos Fríos - Elite Mexico",
+    "file": "cold-room.json",
+    "images_count": 5,
+    "primary_image": "ColdRoom-Egg-production-and-cleaning-facility-stout-by-OCF-Decorative-Concrete-300x300.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/cold-storage-freezer-facilities/",
+    "title": "Instalaciones de almacenamiento en frío y congeladores - Elite Mexico",
+    "file": "cold-storage-freezer-facilities.json",
+    "images_count": 5,
+    "primary_image": "coldstorage3-1.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/commercial-decorative-concrete",
+    "title": "Concreto decorativo comercial - Elite Mexico",
+    "file": "commercial-decorative-concrete.json",
+    "images_count": 5,
+    "primary_image": "deco-gallery-5-768x768.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/commercial-kitchens/",
+    "title": "Recubrimientos para pisos industriales para cocinas comerciales - Elite Mexico",
+    "file": "commercial-kitchens.json",
+    "images_count": 5,
+    "primary_image": "7-Commercial-Kitchen-quartz-4.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/commercial-parking-garages/",
+    "title": "Recubrimientos para pisos industriales para estacionamientos comerciales - Elite Mexico",
+    "file": "commercial-parking-garages.json",
+    "images_count": 5,
+    "primary_image": "675b.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/commercial-pool-decks-waterparks/",
+    "title": "Superficies personalizadas para terrazas de piscinas comerciales y parques acuáticos - Elite Mexico",
+    "file": "commercial-pool-decks-waterparks.json",
+    "images_count": 5,
+    "primary_image": "SV-019.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/concrete-surface-restoration",
+    "title": "Restauración de superficies de concreto - Elite Mexico",
+    "file": "concrete-surface-restoration.json",
+    "images_count": 5,
+    "primary_image": "concrete-restoration-3-768x768.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/concrete-surface-restoration/",
+    "title": "Restauración de superficies de concreto - Elite Mexico",
+    "file": "concrete-surface-restoration.json",
+    "images_count": 5,
+    "primary_image": "concrete-restoration-3-768x768.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/contact-us/",
+    "title": "Contáctenos - Elite Mexico",
+    "file": "contact-us.json",
+    "images_count": 1,
+    "primary_image": null
+  },
+  {
+    "url": "https://www.elitecrete.com/dealership-showrooms/",
+    "title": "Pisos epoxi para salas de exposición de concesionarios - Elite Mexico",
+    "file": "dealership-showrooms.json",
+    "images_count": 5,
+    "primary_image": "18-Toyota-USA-Quartz-1.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/documents-technical-data/",
+    "title": "Documentos y Datos Técnicos - Elite Mexico",
+    "file": "documents-technical-data.json",
+    "images_count": 1,
+    "primary_image": null
+  },
+  {
+    "url": "https://www.elitecrete.com/driveways/",
+    "title": "Calzadas - Elite Mexico",
+    "file": "driveways.json",
+    "images_count": 5,
+    "primary_image": "27-THIN-FINISHwood-plank-border-Sky-Blue-Rialto-Copper-REFLECTOR-by-Simpson-Custom-Concrete-1.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/education/",
+    "title": "Pisos epoxi para instalaciones educativas - Elite Mexico",
+    "file": "education.json",
+    "images_count": 5,
+    "primary_image": "52-School-cafeteria-reflector-by-All-Phase-CPI-Inc.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/electronics-manufacturing/",
+    "title": "Fabricación de productos electrónicos - Elite Mexico",
+    "file": "electronics-manufacturing.json",
+    "images_count": 5,
+    "primary_image": "46346.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/entertainment/",
+    "title": "Pisos epoxi para parques temáticos, zoológicos y museos - Elite Mexico",
+    "file": "entertainment.json",
+    "images_count": 5,
+    "primary_image": "Entertainment.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/epoxy-clear-pigmented-coatings/",
+    "title": "Recubrimientos epoxi transparentes y pigmentados - Elite Mexico",
+    "file": "epoxy-clear-pigmented-coatings.json",
+    "images_count": 5,
+    "primary_image": "collins-industrial-services_project-gallery_Busche1-Epoxy-Flooring-at-Machine-Shop.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/esd-electrostatic-dissipative/",
+    "title": "Pisos epóxicos disipadores electrostáticos ESD - Elite Mexico",
+    "file": "esd-electrostatic-dissipative.json",
+    "images_count": 5,
+    "primary_image": "ESDElectrostaticDissipative-Industrial-Rexam.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/exterior-commercial-surfaces/",
+    "title": "Recubrimientos personalizados para superficies exteriores - Elite Mexico",
+    "file": "exterior-commercial-surfaces.json",
+    "images_count": 5,
+    "primary_image": "DOT_Median_5-1.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/fda-usda-acceptable/",
+    "title": "Soluciones de pisos aceptables por FDA/USDA - Elite Mexico",
+    "file": "fda-usda-acceptable.json",
+    "images_count": 5,
+    "primary_image": "FDAUSDAAcceptable-Commercial-kitchen-stout-blue-by-Bay-Area-Residential-Commercial-Services-LLC.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/film-television/",
+    "title": "Cine y Televisión - Elite Mexico",
+    "file": "film-television.json",
+    "images_count": 5,
+    "primary_image": "filmtv4.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/fire-rescue-ems/",
+    "title": "Pisos epoxi para instalaciones de rescate de incendios/EMS - Elite Mexico",
+    "file": "fire-rescue-ems.json",
+    "images_count": 5,
+    "primary_image": "10-Gordon-county-fire-station-reflector-by-Adam-Diskey-1-768x768.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/fitness-centers/",
+    "title": "Pisos epoxi para gimnasios - Elite Mexico",
+    "file": "fitness-centers.json",
+    "images_count": 5,
+    "primary_image": "14-Commercial-gym-reflector-fitnow3.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/food-and-beverage/",
+    "title": "Recubrimientos para pisos industriales para la industria de alimentos y bebidas - Elite Mexico",
+    "file": "food-and-beverage.json",
+    "images_count": 5,
+    "primary_image": "coldstorage3-1.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/garage-floors/",
+    "title": "Revestimiento epoxi para pisos de garaje - Elite Mexico",
+    "file": "garage-floors.json",
+    "images_count": 5,
+    "primary_image": "GP-flake-2-2.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/grind-and-seal/",
+    "title": "Moler y sellar - Elite Mexico",
+    "file": "grind-and-seal.json",
+    "images_count": 5,
+    "primary_image": "grind-gallery-4-768x768.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/grocery-and-convenience-stores/",
+    "title": "Pisos epoxi para supermercados y tiendas de conveniencia - Elite Mexico",
+    "file": "grocery-and-convenience-stores.json",
+    "images_count": 5,
+    "primary_image": "12-Grocery-Store-Save-a-lot-by-All-Phase-CPI-Inc.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/gymnasiums/",
+    "title": "Pisos Epoxi para Gimnasios - Elite Mexico",
+    "file": "gymnasiums.json",
+    "images_count": 5,
+    "primary_image": "50-Elementary-school-gymnasium.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/healthcare/",
+    "title": "Pisos epoxi para instalaciones de atención médica - Elite Mexico",
+    "file": "healthcare.json",
+    "images_count": 5,
+    "primary_image": "Medical-facility-flake-by-Dynamic-Floor-Coatings-@DynamicFloorCoatings-3.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/hospitality/",
+    "title": "Pisos Epoxi para Hoteles - Elite Mexico",
+    "file": "hospitality.json",
+    "images_count": 5,
+    "primary_image": "220d.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/hotels-resorts/",
+    "title": "Hoteles y Resorts - Elite Mexico",
+    "file": "hotels-resorts.json",
+    "images_count": 5,
+    "primary_image": "hotels1-1.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/industrial/",
+    "title": "Pisos industriales epoxi - Elite Mexico",
+    "file": "industrial.json",
+    "images_count": 5,
+    "primary_image": "collins-industrial-services_project-gallery_Busche1-Epoxy-Flooring-at-Machine-Shop.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/joint-sealants-densifier-crack-repair-non-slip-additives-etc/",
+    "title": "Selladores de juntas, densificador, reparación de grietas y más - Elite Mexico",
+    "file": "joint-sealants-densifier-crack-repair-non-slip-additives-etc.json",
+    "images_count": 5,
+    "primary_image": "concrete-restoration-3-768x768.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/line-safety-striping/",
+    "title": "Pisos epoxi con línea/franjas de seguridad - Elite Mexico",
+    "file": "line-safety-striping.json",
+    "images_count": 5,
+    "primary_image": "SafetyStriping-Limco-Air-neat-by-Hawkeye-Custom-Concrete.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/locations/",
+    "title": "Ubicaciones - Elite Mexico",
+    "file": "locations.json",
+    "images_count": 7,
+    "primary_image": "marker_med.png"
+  },
+  {
+    "url": "https://www.elitecrete.com/locker-rooms-restrooms/",
+    "title": "Recubrimientos para pisos industriales para vestidores y baños - Elite Mexico",
+    "file": "locker-rooms-restrooms.json",
+    "images_count": 5,
+    "primary_image": "20-Locker-Room-Stout-by-Deco-Crete-Creations-3.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/manufacturing-plants/",
+    "title": "Recubrimientos para pisos industriales para plantas de fabricación - Elite Mexico",
+    "file": "manufacturing-plants.json",
+    "images_count": 5,
+    "primary_image": "10152515_10154029141849612_1687338429245183477_n.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/microcement/",
+    "title": "Microcemento - Elite Mexico",
+    "file": "microcement.json",
+    "images_count": 5,
+    "primary_image": "microcement2-768x768.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/military",
+    "title": "Sistema de piso epoxi para hangares de aviones - Elite Mexico",
+    "file": "military.json",
+    "images_count": 5,
+    "primary_image": "military-2.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/mma-methyl-methacrylate-coatings/",
+    "title": "MMA – Recubrimientos de metacrilato de metilo - Elite Mexico",
+    "file": "mma-methyl-methacrylate-coatings.json",
+    "images_count": 5,
+    "primary_image": "2-Warehouse-neat-in-Australia-by-Sydney-Epoxy-Floors-@SydneyEpoxyFloors-1.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/municipal-government/",
+    "title": "Pisos epoxi para edificios municipales y gubernamentales - Elite Mexico",
+    "file": "municipal-government.json",
+    "images_count": 5,
+    "primary_image": "18-Sanibel-Fire-blue-Stout-2.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/news-trade-shows/",
+    "title": "Noticias y ferias comerciales - Elite Mexico",
+    "file": "news-trade-shows.json",
+    "images_count": 19,
+    "primary_image": "NewsAndTradeShows-WOF-2014-300x300.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/patios-and-sidewalks/",
+    "title": "Recubrimientos para patios y aceras exteriores - Elite Mexico",
+    "file": "patios-and-sidewalks.json",
+    "images_count": 5,
+    "primary_image": "15-Exterior-3.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/pharmaceutical-industry",
+    "title": "Pisos epoxi para productos farmacéuticos - Elite Mexico",
+    "file": "pharmaceutical-industry.json",
+    "images_count": 5,
+    "primary_image": "pharma1.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/polymer-modified-cementitious-coatings/",
+    "title": "Recubrimientos cementosos modificados con polímeros - Elite Mexico",
+    "file": "polymer-modified-cementitious-coatings.json",
+    "images_count": 5,
+    "primary_image": "38-Casino-pool-1.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/polyurethanes-polyaspartics-and-polyurea-coatings/",
+    "title": "Recubrimientos de poliuretanos, poliaspárticos y poliurea - Elite Mexico",
+    "file": "polyurethanes-polyaspartics-and-polyurea-coatings.json",
+    "images_count": 5,
+    "primary_image": "ArchitectsAndSpecifiers-NASA.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/pool-decks/",
+    "title": "Recubrimientos para terrazas de piscinas - Elite Mexico",
+    "file": "pool-decks.json",
+    "images_count": 5,
+    "primary_image": "66-Exterior-3.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/professional-contractors/",
+    "title": "Contratistas profesionales - Elite Mexico",
+    "file": "professional-contractors.json",
+    "images_count": 5,
+    "primary_image": "15-Commercial-flake-Sky-Zone-3-1-768x768.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/property-owners/",
+    "title": "Propietarias - Elite Mexico",
+    "file": "property-owners.json",
+    "images_count": 5,
+    "primary_image": "PropertOwners-Commercial-Pool-Deck-And-Waterparks.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/protective-sealers-and-densifiers/",
+    "title": "Selladores y densificadores protectores - Elite Mexico",
+    "file": "protective-sealers-and-densifiers.json",
+    "images_count": 5,
+    "primary_image": "10430388_1448855615397629_6757677876344705567_n.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/residential-interior/",
+    "title": "Revestimientos de pisos epóxicos residenciales - Elite Mexico",
+    "file": "residential-interior.json",
+    "images_count": 5,
+    "primary_image": "23-Man-cave-Reflector-by-Advanced-Solutions-1.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/restaurants-bars/",
+    "title": "Pisos epoxi para restaurantes y bares - Elite Mexico",
+    "file": "restaurants-bars.json",
+    "images_count": 5,
+    "primary_image": "Mulligans-Beach-House-in-Melbourne-FL.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/retail-and-commercial/",
+    "title": "Pisos epoxi para espacios comerciales y minoristas - Elite Mexico",
+    "file": "retail-and-commercial.json",
+    "images_count": 5,
+    "primary_image": "19-Commercial-retail-reflector-2.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/salons-and-parlors/",
+    "title": "Pisos epoxi para salones y salones - Elite Mexico",
+    "file": "salons-and-parlors.json",
+    "images_count": 5,
+    "primary_image": "Barbershop-reflector-by-Greens-Pure-Coatings-@nickwgreen35-1.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/salt-resistant/",
+    "title": "Pisos resistentes a la sal - Elite Mexico",
+    "file": "salt-resistant.json",
+    "images_count": 5,
+    "primary_image": "SaltResistant-Exterior-Waterfront-300x300.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/self-levelers/",
+    "title": "Autoniveladores - Superficies de pisos autonivelantes - Elite Mexico",
+    "file": "self-levelers.json",
+    "images_count": 5,
+    "primary_image": "SelfLevelers-Well-Known-Brands-GoDaddy.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/self-leveling-cement-repair",
+    "title": "Cemento autonivelante y reparación - Elite Mexico",
+    "file": "self-leveling-cement-repair.json",
+    "images_count": 5,
+    "primary_image": "ChemicalContainment-Pacific-Coliseum-mechanical-room-by-MODA-Improvements-Ltd.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/self-leveling-cements/",
+    "title": "Cementos autonivelantes - Elite Mexico",
+    "file": "self-leveling-cements.json",
+    "images_count": 5,
+    "primary_image": "2-Locker-room-blue-4.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/sports-courts",
+    "title": "Sistemas de pisos para canchas deportivas - Elite Mexico",
+    "file": "sports-courts.json",
+    "images_count": 5,
+    "primary_image": "sports-courts-3.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/stadiums-and-concourses/",
+    "title": "Pisos epoxi para estadios y vestíbulos - Elite Mexico",
+    "file": "stadiums-and-concourses.json",
+    "images_count": 5,
+    "primary_image": "Untitled-1-1.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/stains-dyes-and-pigment-colorants/",
+    "title": "Tintes, tintes y colorantes pigmentarios - Elite Mexico",
+    "file": "stains-dyes-and-pigment-colorants.json",
+    "images_count": 5,
+    "primary_image": "FDAUSDAAcceptable-Commercial-kitchen-stout-blue-by-Bay-Area-Residential-Commercial-Services-LLC.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/steel-coatings/",
+    "title": "Recubrimientos de acero - Elite Mexico",
+    "file": "steel-coatings.json",
+    "images_count": 5,
+    "primary_image": "steel_coatings_1.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/theme-parks/",
+    "title": "Pisos epoxi para parques temáticos - Elite Mexico",
+    "file": "theme-parks.json",
+    "images_count": 5,
+    "primary_image": "MakoSharkRide.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/thermal-shock-resistant/",
+    "title": "Pisos resistentes a los golpes térmicos - Elite Mexico",
+    "file": "thermal-shock-resistant.json",
+    "images_count": 5,
+    "primary_image": "ThermalShockResistant-Empire-Brewhouse-Brick-Red-Neat-Floor.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/trampoline-parks/",
+    "title": "Parques de trampolines - Elite Mexico",
+    "file": "trampoline-parks.json",
+    "images_count": 5,
+    "primary_image": "trampolineparks2-768x768.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/urethane-cements/",
+    "title": "Cementos de uretano - Elite Mexico",
+    "file": "urethane-cements.json",
+    "images_count": 5,
+    "primary_image": "ChemicalContainment-Pacific-Coliseum-mechanical-room-by-MODA-Improvements-Ltd.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/uv-reflective/",
+    "title": "Pisos epoxi reflectantes UV - Elite Mexico",
+    "file": "uv-reflective.json",
+    "images_count": 5,
+    "primary_image": "UVReflective-Industrial-300x300.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/wall-coatings-2/",
+    "title": "Pisos epoxi para almacén - Elite Mexico",
+    "file": "wall-coatings-2.json",
+    "images_count": 5,
+    "primary_image": "WallCoatings-Culinary-school-bathroom-red-flake-wall-by-All-Phase-CPI-Inc.com_.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/wall-coatings/",
+    "title": "Recubrimientos para paredes - Elite Mexico",
+    "file": "wall-coatings.json",
+    "images_count": 5,
+    "primary_image": "WallCoatings-Culinary-school-bathroom-red-flake-wall-by-All-Phase-CPI-Inc.com_.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/warehouses/",
+    "title": "Pisos epoxi para almacén - Elite Mexico",
+    "file": "warehouses.json",
+    "images_count": 5,
+    "primary_image": "2-Warehouse-neat-in-Australia-by-Sydney-Epoxy-Floors-@SydneyEpoxyFloors-1.jpg"
+  },
+  {
+    "url": "https://www.elitecrete.com/well-known-brands/",
+    "title": "Pisos de resina epoxi con logotipos personalizados - Elite Mexico",
+    "file": "well-known-brands.json",
+    "images_count": 5,
+    "primary_image": "30-McDonalds-by-Dornbrook-Concrete-Coatings-@DornbrookConcreteCoatings-1.jpg"
+  }
+]

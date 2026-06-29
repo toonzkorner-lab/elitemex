@@ -1,0 +1,119 @@
+.case-studies-section {
+  padding: 6rem 2rem;
+  background-color: #0E0E10;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.cs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2.5rem;
+  margin-top: 3rem;
+}
+
+.cs-card {
+  background: #141416;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  overflow: hidden;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.cs-card:hover {
+  transform: translateY(-8px);
+  border-color: #0A84FF;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6), 0 0 20px rgba(10, 132, 255, 0.15);
+}
+
+.cs-image-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16/10;
+  overflow: hidden;
+}
+
+.cs-image-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.cs-card:hover .cs-image-wrap img {
+  transform: scale(1.05);
+}
+
+.cs-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(10, 10, 11, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.cs-card:hover .cs-overlay {
+  opacity: 1;
+}
+
+.cs-btn {
+  background: rgba(10, 132, 255, 0.9);
+  color: #fff;
+  padding: 0.6rem 1.5rem;
+  border-radius: 24px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  backdrop-filter: blur(4px);
+  transform: translateY(10px);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.cs-card:hover .cs-btn {
+  transform: translateY(0);
+}
+
+.cs-content {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.cs-category {
+  color: #0A84FF;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.75rem;
+}
+
+.cs-content h3 {
+  color: #fff;
+  font-size: 1.5rem;
+  margin: 0 0 1rem 0;
+  line-height: 1.3;
+}
+
+.cs-content p {
+  color: #A0A0A5;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.cs-footer {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .cs-grid {
+    grid-template-columns: 1fr;
+  }
+}
