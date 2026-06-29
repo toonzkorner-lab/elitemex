@@ -1,21 +1,21 @@
 {
-    "url": "https://www.elitecrete.com/urethane-cements/",
-    "title": "Urethane Cements - Elite South Texas",
-    "content": "Please refer to the technical documents below for more detailed information and specifications regarding this product.",
-    "images": [
-        "ChemicalContainment-Pacific-Coliseum-mechanical-room-by-MODA-Improvements-Ltd.jpg",
-        "ThermalShockResistant-Orange-Coast-College-kitchen.jpg",
-        "ColdRoom-Commercial-Kitchen-quartz.jpg",
-        "SelfLevelers-Industrial-Storage.jpg"
-    ],
-    "pdfs": [
-        {
-            "title": "HERMETIC\u2122 4.8S Urethane Cement",
-            "filename": "TD.702-Technical-Data-HERMETIC-4.8S-Urethane-Cement-Slurry.pdf"
-        },
-        {
-            "title": "HERMETIC\u2122 2.2T",
-            "filename": "TD.826-Technical-Data-HERMETIC-2.2T.pdf"
-        }
-    ]
+  "url": "https://www.elitecrete.com/urethane-cements/",
+  "title": "Cementos de uretano - Elite Mexico",
+  "content": "Consulte los documentos técnicos a continuación para obtener información y especificaciones más detalladas sobre este producto.",
+  "images": [
+    "ChemicalContainment-Pacific-Coliseum-mechanical-room-by-MODA-Improvements-Ltd.jpg",
+    "ThermalShockResistant-Orange-Coast-College-kitchen.jpg",
+    "ColdRoom-Commercial-Kitchen-quartz.jpg",
+    "SelfLevelers-Industrial-Storage.jpg"
+  ],
+  "pdfs": [
+    {
+      "title": "Cemento de uretano HERMETIC™ 4.8S",
+      "filename": "TD.702-Technical-Data-HERMETIC-4.8S-Urethane-Cement-Slurry.pdf"
+    },
+    {
+      "title": "HERMÉTICO™ 2.2T",
+      "filename": "TD.826-Technical-Data-HERMETIC-2.2T.pdf"
+    }
+  ]
 }

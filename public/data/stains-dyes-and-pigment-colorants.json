@@ -1,41 +1,41 @@
 {
-    "url": "https://www.elitecrete.com/stains-dyes-and-pigment-colorants/",
-    "title": "Stains, Dyes & Pigment Colorants - Elite South Texas",
-    "content": "REFLECTOR\u2122 Enhancer\nE100\u2122 Pigmented Industrial Epoxies\nPCC\u2122 (Portion Control Colorant)\nSYPP\u2122 (Synthetic Primary Pigment)\nHYDRA-STONE\u2122\nCHEM-STONE\u2122\nULTRA-STONE\u2122",
-    "images": [
-        "FDAUSDAAcceptable-Commercial-kitchen-stout-blue-by-Bay-Area-Residential-Commercial-Services-LLC.jpg",
-        "119205002_10158619700362937_8009015410198980818_n.jpg",
-        "ADAFlat-Commercial-Sports-Retail.jpg",
-        "ChemicalResistant-Auto-Stout.jpg"
-    ],
-    "pdfs": [
-        {
-            "title": "REFLECTOR\u2122 Enhancer",
-            "filename": "reflector-enhancer-color-chart.pdf"
-        },
-        {
-            "title": "E100\u2122 Pigmented Industrial Epoxies",
-            "filename": "resinous-industrial-coatings-color-chart.pdf"
-        },
-        {
-            "title": "PCC\u2122 (Portion Control Colorant)",
-            "filename": "portion-control-colorant-color-chart.pdf"
-        },
-        {
-            "title": "SYPP\u2122 (Synthetic Primary Pigment)",
-            "filename": "TD.417-Technical-Data-Stain-and-Coloring-Options.pdf"
-        },
-        {
-            "title": "HYDRA-STONE\u2122",
-            "filename": "PI.148-Product-Information-HYDRA-STONE-Dye-Stain.pdf"
-        },
-        {
-            "title": "CHEM-STONE\u2122",
-            "filename": "PI.145-Product-Information-CHEM-STONE-Reactive-Stain.pdf"
-        },
-        {
-            "title": "ULTRA-STONE\u2122",
-            "filename": "PI.144-Product-Information-ULTRA-STONE-Antiquing-Stain.pdf"
-        }
-    ]
+  "url": "https://www.elitecrete.com/stains-dyes-and-pigment-colorants/",
+  "title": "Tintes, tintes y colorantes pigmentarios - Elite Mexico",
+  "content": "Potenciador REFLECTOR™\nEpoxis industriales pigmentados E100™\nPCC™ (colorante para control de porciones)\nSYPP™ (pigmento primario sintético)\nHIDRA-PIEDRA™\nPIEDRA QUÍMICA™\nULTRA-PIEDRA™",
+  "images": [
+    "FDAUSDAAcceptable-Commercial-kitchen-stout-blue-by-Bay-Area-Residential-Commercial-Services-LLC.jpg",
+    "119205002_10158619700362937_8009015410198980818_n.jpg",
+    "ADAFlat-Commercial-Sports-Retail.jpg",
+    "ChemicalResistant-Auto-Stout.jpg"
+  ],
+  "pdfs": [
+    {
+      "title": "Potenciador REFLECTOR™",
+      "filename": "reflector-enhancer-color-chart.pdf"
+    },
+    {
+      "title": "Epoxis industriales pigmentados E100™",
+      "filename": "resinous-industrial-coatings-color-chart.pdf"
+    },
+    {
+      "title": "PCC™ (colorante para control de porciones)",
+      "filename": "portion-control-colorant-color-chart.pdf"
+    },
+    {
+      "title": "SYPP™ (pigmento primario sintético)",
+      "filename": "TD.417-Technical-Data-Stain-and-Coloring-Options.pdf"
+    },
+    {
+      "title": "HIDRA-PIEDRA™",
+      "filename": "PI.148-Product-Information-HYDRA-STONE-Dye-Stain.pdf"
+    },
+    {
+      "title": "PIEDRA QUÍMICA™",
+      "filename": "PI.145-Product-Information-CHEM-STONE-Reactive-Stain.pdf"
+    },
+    {
+      "title": "ULTRA-PIEDRA™",
+      "filename": "PI.144-Product-Information-ULTRA-STONE-Antiquing-Stain.pdf"
+    }
+  ]
 }
