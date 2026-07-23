@@ -34,7 +34,7 @@ export default function Navbar() {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`} role="navigation" aria-label="Main navigation">
       <div className="nav-container">
         <Link to="/" className="logo-link" onClick={() => window.scrollTo(0,0)} aria-label="Elite Mexico - Inicio">
-          <img src="/logo.jpg" alt="" className="nav-logo" />
+          <img src="/new-logo.png" alt="Elite Crete Systems" className="nav-logo" />
           <span className="logo-text">Elite Mexico</span>
         </Link>
         <div className={`nav-links ${mobileOpen ? 'open' : ''}`}>
@@ -129,6 +129,8 @@ export default function Navbar() {
             )}
           </div>
 
+          <a href="sms:210-612-5947" className="btn btn-secondary nav-btn" onClick={() => setMobileOpen(false)}>Text Now</a>
+          <a href="mailto:carlos.pena@elitecrete.com" className="btn btn-secondary nav-btn" onClick={() => setMobileOpen(false)}>Email Now</a>
           <Link to="/contact" className="btn btn-primary nav-btn" onClick={() => { window.scrollTo(0,0); setMobileOpen(false); }}>Contáctanos</Link>
         </div>
         <button className="mobile-menu-toggle" onClick={() => setMobileOpen(!mobileOpen)} aria-label="Toggle mobile menu" aria-expanded={mobileOpen}>

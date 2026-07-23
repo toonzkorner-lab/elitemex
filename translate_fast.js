@@ -3,18 +3,17 @@ import path from 'path';
 import translate from 'google-translate-api-x';
 
 const DATA_DIR = path.join(process.cwd(), 'public', 'data');
-const BATCH_SIZE = 5;
 
 async function translateText(text) {
   if (!text || typeof text !== 'string') return text;
-  // If it's just a file name or something very short that shouldn't be translated, skip
-  if (text.endsWith('.pdf') || text.endsWith('.json') || text.endsWith('.jpg')) return text;
+  if (text.endsWith('.pdf') || text.endsWith('.json') || text.endsWith('.jpg') || text.endsWith('.png')) return text;
+  if (text.trim().length === 0) return text;
   
   try {
-    const res = await translate(text, { to: 'es' });
+    const res = await translate(text, { to: 'es', autoCorrect: false });
     return res.text;
   } catch (err) {
-    console.error('Translation error:', err);
+    console.error('Translation error:', err.message);
     return text;
   }
 }
@@ -36,12 +35,12 @@ async function translateArray(arr) {
 
 async function translateObject(obj) {
   if (!obj || typeof obj !== 'object') return obj;
-  if (Array.isArray(obj)) return translateArray(obj);
+  if (Array.isArray(obj)) return await translateArray(obj);
 
   const newObj = {};
   for (const [key, value] of Object.entries(obj)) {
-    // Keys to translate
-    if (['title', 'description', 'subtitle', 'features', 'applications', 'name', 'category'].includes(key)) {
+    // INCLUDE 'content' THIS TIME!
+    if (['title', 'description', 'subtitle', 'features', 'applications', 'name', 'category', 'content'].includes(key)) {
       if (typeof value === 'string') {
         newObj[key] = await translateText(value);
       } else if (Array.isArray(value)) {
@@ -50,7 +49,6 @@ async function translateObject(obj) {
         newObj[key] = value;
       }
     } else {
-      // Don't translate keys like 'file', 'id', 'primary_image', etc.
       if (typeof value === 'object') {
          newObj[key] = await translateObject(value);
       } else {
@@ -63,16 +61,28 @@ async function translateObject(obj) {
 
 async function processFile(filePath) {
   try {
-    const content = fs.readFileSync(filePath, 'utf-8');
+    const contentStr = fs.readFileSync(filePath, 'utf-8');
     let data;
     try {
-       data = JSON.parse(content);
-    } catch(e) { return; } // skip invalid json
+       data = JSON.parse(contentStr);
+    } catch(e) { return; } 
+    
+    // Only process files that have English text in content or title
+    let needsTranslation = false;
+    const content = data.content || '';
+    if (typeof content === 'string' && (content.includes(' the ') || content.includes(' and ') || content.includes(' for '))) {
+      needsTranslation = true;
+    }
+    const title = data.title || '';
+    if (typeof title === 'string' && title.includes('Elite South Texas')) {
+        needsTranslation = true;
+    }
+    
+    if (!needsTranslation) return;
     
     console.log(`Translating: ${path.basename(filePath)}`);
     const translatedData = await translateObject(data);
     
-    // Quick string replace for Elite South Texas -> Elite Mexico in case it was missed
     let newContent = JSON.stringify(translatedData, null, 2);
     newContent = newContent.replace(/Elite South Texas/g, 'Elite Mexico');
     newContent = newContent.replace(/Elite Sur de Texas/gi, 'Elite Mexico');
@@ -84,15 +94,15 @@ async function processFile(filePath) {
 }
 
 async function main() {
-  const files = fs.readdirSync(DATA_DIR).filter(f => f.endsWith('.json')).slice(25);
+  const files = fs.readdirSync(DATA_DIR).filter(f => f.endsWith('.json'));
+  const skipList = ['catalog.json', 'gallery.json', 'index.json', 'contact-us.json', 'resources.json'];
   
-  // process in small batches to avoid rate limits
-  for (let i = 0; i < files.length; i += BATCH_SIZE) {
-    const batch = files.slice(i, i + BATCH_SIZE);
-    await Promise.all(batch.map(f => processFile(path.join(DATA_DIR, f))));
-    console.log(`Processed batch ${Math.floor(i/BATCH_SIZE) + 1} of ${Math.ceil(files.length/BATCH_SIZE)}`);
-    // sleep to prevent rate limiting
-    await new Promise(r => setTimeout(r, 2000));
+  const toProcess = files.filter(f => !skipList.includes(f));
+  
+  // We process sequentially with a small delay to avoid Google Translate rate limits
+  for (let i = 0; i < toProcess.length; i++) {
+     await processFile(path.join(DATA_DIR, toProcess[i]));
+     await new Promise(r => setTimeout(r, 1000));
   }
   
   console.log("Translation complete!");
